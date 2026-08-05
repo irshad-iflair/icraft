@@ -4200,7 +4200,7 @@ margin-top:40px;
     color:#666;
 
     line-height:26px;
-
+    font-size: medium;
 }
 
 /*==========================
@@ -4266,6 +4266,8 @@ margin-top:40px;
     color:#666;
 
     line-height:26px;
+    font-size: medium;
+    
 
 }
 .service-img{
@@ -4390,4 +4392,15 @@ margin-top:40px;
     height:auto;
 }
 
+}
+
+.col-sm-6{
+    padding-left: 0px
+}
+
+@media (max-width:768px){
+    .tech-card h6{
+        font-size: 11px;
+        white-space: nowrap;
+    }
 }
