@@ -4399,7 +4399,13 @@ margin-top:40px;
 }
 
 @media (max-width:768px){
-    .tech-card h6{
+    .fab fa-js-square h6{
+        font-size: 11px;
+        white-space: nowrap;
+    }
+}
+@media (max-width:768px){
+    .fab fa-bootstrap h6{
         font-size: 11px;
         white-space: nowrap;
     }
