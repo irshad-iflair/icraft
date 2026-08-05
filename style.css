@@ -4399,7 +4399,7 @@ margin-top:40px;
 }
 
 @media (max-width:768px) {
-    .tech-card h5 {
+    .tech-card h6 {
         font-size: 11px;
         white-space: normal;
         word-break: break-word;
