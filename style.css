@@ -4404,3 +4404,12 @@ margin-top:40px;
     font-size:14px;
     white-space:nowrap;
 }
+.phone-box a {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.phone-box i {
+    margin-right: 8px;
+}
