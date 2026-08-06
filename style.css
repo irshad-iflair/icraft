@@ -335,6 +335,7 @@ a img.aligncenter {
 .email-box a{
 	color: #ffffff;
 	font-size: 16px;
+    letter-spacing: 1px;
 }
 .email-box a:hover{
 	color: #fd6802;
@@ -698,6 +699,7 @@ li.social-links a {
 
 .section.db {
     background-color: #1f1f1f;
+    padding: 15px 0;
 }
 
 .section.color1 {
@@ -745,8 +747,8 @@ li.social-links a {
 }
 
 .section-title p {
-    color: #ffffff;
-    font-weight: 400;
+    color: #1f1f1f;
+    font-weight: 500;
     font-size: 18px;
     line-height: 33px;
     margin: 0;
@@ -759,6 +761,7 @@ li.social-links a {
     margin: 0 0 25px;
     padding: 0;
     text-transform: none;
+    
 }
 
 .section.colorsection p,
@@ -1526,6 +1529,7 @@ hr.invis1 {
 #features li p {
     margin-bottom: 0;
     padding-bottom: 0;
+    font-size: inherit;
 }
 
 #features li {
@@ -3947,7 +3951,7 @@ font-size:30px;
 
 #about{
 
-    padding:90px 0;
+    padding:40px 0;
 
 }
 
@@ -3987,7 +3991,8 @@ font-size:30px;
 
 .about-text{
 
-    color:#666;
+    color: #1f1f1f;
+    font-weight: 500;
 
     font-size:17px;
 
@@ -4197,7 +4202,8 @@ margin-top:40px;
 
 .industry-box p{
 
-    color:#666;
+    color: #1f1f1f;
+    font-weight: 500;
 
     line-height:26px;
     font-size: medium;
@@ -4263,7 +4269,8 @@ margin-top:40px;
 
 .why-card p{
 
-    color:#666;
+    color: #1f1f1f;
+    font-weight: 500;
 
     line-height:26px;
     font-size: medium;
@@ -4322,7 +4329,8 @@ margin-top:40px;
 
 .service-dit p{
     font-size:15px;
-    color:#666;
+    color: #1f1f1f;
+    font-weight: 500;
     line-height:24px;
     margin:0;
 }
@@ -4411,4 +4419,28 @@ margin-top:40px;
 
 .phone-box i {
     margin-right: 3px;
+}
+.navbar-brand > img {
+    top: -7px !important;
+}
+
+   .top-bar .row .col-md-6{
+    text-align: center;
+    width: 100%;
+}
+
+#testimonials p {
+    color: #fff !important;
+}
+.service-widget{
+    margin-bottom:15px;
+}
+
+.service-dit{
+    min-height:190px;
+    text-align:center;
+}
+
+.service-dit h3{
+    min-height:55px;
 }
