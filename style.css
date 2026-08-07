@@ -3336,8 +3336,8 @@ select.mobile-device {
 }
 
 .address-item h3{
-	font-size: 28px;
-	font-weight: 600;
+	font-size: 25px;
+	font-weight: 4  00;
 	color: #fd6802;
 }
  
@@ -4443,4 +4443,19 @@ margin-top:40px;
 
 .service-dit h3{
     min-height:55px;
+}
+.address-item p{
+  font-size: medium;
+}
+.payment-section {
+    padding: 40px 20px;
+}
+
+.qr-code {
+    width: 220px;
+    max-width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    background: #fff;
 }
