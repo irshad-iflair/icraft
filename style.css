@@ -4459,3 +4459,35 @@ margin-top:40px;
     padding: 10px;
     background: #fff;
 }
+/* Contact cards responsive */
+@media (max-width: 768px) {
+
+    .pd-add{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .address-item{
+        width: 100% !important;
+        float: none !important;
+        margin: 0 0 20px 0 !important;
+        height: auto !important;
+        text-align: center;
+    }
+
+    .address-item h3{
+        font-size: 30px;
+        margin: 15px 0;
+    }
+
+    .address-item p{
+        font-size: 18px;
+        line-height: 1.6;
+        word-break: break-word;
+    }
+
+    .address-icon{
+        margin: 0 auto 15px;
+    }
+}
